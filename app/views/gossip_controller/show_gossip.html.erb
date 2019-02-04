@@ -1,5 +1,6 @@
 <h1> Gossip numéro : <%=@gossip_number%></h1>
-<h2> <%= @gossip_identity.user.first_name %> <%= @gossip_identity.user.last_name %> </h2>
+<h3> <%= @gossip_identity.user.first_name %> <%= @gossip_identity.user.last_name %> </h3>
+<p><%= link_to "Author profile", author_path(@gossip_identity.user.id) %></p>
 <h3> <%= @gossip_identity.title %> </h3>
 <p> <%= @gossip_identity.content %> </p>
 <p> Date de création : <%= @gossip_identity.created_at.strftime("%d/%m/%Y") %> </p>
