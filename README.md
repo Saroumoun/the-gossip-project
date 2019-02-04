@@ -1,24 +1,49 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##  :gem: Project Title - RAILS/THE GOSSIP PROJECT
 
-Things you may want to cover:
+Holà Correctorios! Voici notre Gossip Project !
 
-* Ruby version
+<p align="center">
+  <img width="460" height="300" src="https://media.giphy.com/media/SqKceTiTs99y8/giphy.gif">
+</p>
 
-* System dependencies
 
-* Configuration
+##   :fireworks: How does it work ?
 
-* Database creation
+Comment runner notre magnifique application :  
 
-* Database initialization
+1/ Clone the github : git clone https://github.com/Saroumoun/the-gossip-project  
 
-* How to run the test suite
+```
+git clone https://github.com/Saroumoun/the-gossip-project
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+2/ Ajoute les gems/les migrations/le seed :   
 
-* Deployment instructions
+```
+bundle install
+```
+```
+rails db:create
+```
+```
+rails db:migrate
+```
 
-* ...
+```
+rails db:seed
+```
+
+3/ Lance le serveur : rails serveur  
+
+```
+rails serveur
+```
+
+4/ Va sur le http://localhost:3000  
+
+## :heart: Built by : 
+
+Viviane de Pétigny
+Bastien Hiel 
