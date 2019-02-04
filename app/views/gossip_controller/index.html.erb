@@ -1,0 +1,10 @@
+<h1>GossipController#index</h1>
+<p>
+	<ul>
+	<% @all_gossip.each_with_index do |gossip, i| %>
+		<li> <a href="/gossip/<%= i +1 %>"><%= gossip.user.first_name %> <%= gossip.user.last_name %> : <%= gossip.title %></a></li>
+	<% end %>
+	</ul>
+</p>
+
+
